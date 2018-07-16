@@ -1,7 +1,14 @@
 'use strict';
 
 function get_intersection(collection_a, collection_b) {
-  //在这里写入代码
+  let res = new Array();
+  collection_b.forEach(element => {
+    if(collection_a.indexOf(element) != -1) {
+      res.push(element);
+    }
+  });
+
+  return res;
 }
 
 module.exports = get_intersection;

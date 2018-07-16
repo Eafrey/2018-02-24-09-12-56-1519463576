@@ -1,12 +1,10 @@
 'use strict';
 
 function choose_multiples_of_three(collection) {
-  let res = {};
-  let index = 0;
+  let res = new Array();
   collection.forEach(element => {
-    if(element / 3 === 0) {
-      res[index] = element;
-      index++;
+    if(element % 3 === 0) {
+      res.push(element);
     }
   });
 

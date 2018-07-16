@@ -5,7 +5,7 @@ function collect_all_even(collection) {
   let res = new Array();
   let index = 0;
   collection.forEach(element => {
-    if(element / 2 === 0) {
+    if(element % 2 === 0) {
       res[index] = element;
       index++;
     }

@@ -1,4 +1,4 @@
-'use strict';
+
 
 var hybrid_operation = require("../../../practices/superposition_operation/collection_operation/practice_1.js");
 
